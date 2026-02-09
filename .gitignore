@@ -1,14 +1,14 @@
 # Dependencies
-**/node_modules
+**/node_modules/
 **/.pnp
 **/.pnp.js
 
-# Next.js Build files (Updated to match your folder name)
+# Next.js Build files
 frontend_hrms/.next/
 frontend_hrms/out/
 frontend_hrms/build/
 
-# Environment Secrets
+# Environment Secrets (Crucial for security)
 **/.env
 **/.env.local
 **/.env.development.local
@@ -22,3 +22,4 @@ yarn-error.log*
 
 # OS Files
 .DS_Store
+Thumbs.db
